@@ -5,18 +5,17 @@ package edu.wpi.cs3733.entity;
  */
 public class ElbonianCipher implements Observer {
 
-	String h;
+	String userText = "";
 	public void setText(String text){
-
+		userText = text;
 	}
 
 	public String getText(){
-
-		return "hello";
+		return userText;
 	}
 
 	@Override
 	public void notify(Object object){
-		h = object.toString();
+		setText(object.toString());
 	}
 }

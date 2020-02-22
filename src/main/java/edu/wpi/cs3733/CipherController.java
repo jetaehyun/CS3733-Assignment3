@@ -28,9 +28,11 @@ public class CipherController {
 		caesarCipher = new CaesarCipher();
 		elbonianCipher = new ElbonianCipher();
 
+
 		cleartext.register(caesarCipher);
 		cleartext.register(elbonianCipher);
-//		textInputBox.textProperty().addListener(observable -> {
+
+//		caesarTextOut.textProperty().addListener(textInputBox -> {
 //			cleartext.notifyObservers();
 //		});
 		/*

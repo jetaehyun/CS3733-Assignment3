@@ -7,19 +7,17 @@ import java.util.ArrayList;
  */
 public class Message implements Observable {
 
+
 	ArrayList<Observer> observerArrayList = new ArrayList<Observer>();
+	String userText = "";
 
 	public void setText(String text){
-    System.out.println("hello");
-//		notifyObservers();
-		for(Observer o : observerArrayList) {
-      		System.out.println("hello");
-		}
+		userText = text;
+		notifyObservers();
 	}
 
 	public String getText(){
-
-		return null;
+		return userText;
 	}
 
 	@Override
@@ -30,7 +28,7 @@ public class Message implements Observable {
 	@Override
 	public void notifyObservers(){
 		for(Observer o : observerArrayList) {
-			o.notify();
+			o.notify(getText());
 		}
 	}
 }
