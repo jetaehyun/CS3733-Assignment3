@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="" />
+    <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MainView.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +34,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548994963114" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NumberObserver" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -282,6 +293,7 @@
       <workItem from="1548994590212" duration="369000" />
       <workItem from="1548995112765" duration="24000" />
       <workItem from="1582318934434" duration="3157000" />
+      <workItem from="1582332354540" duration="10015000" />
     </task>
     <servers />
   </component>
@@ -289,26 +301,47 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="308" width="424" height="492" key="FileChooserDialogImpl" timestamp="1582319750326">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="743" y="287" width="424" height="492" key="FileChooserDialogImpl" timestamp="1582339020289">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="743" y="287" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582339020289" />
     <state x="743" y="308" width="424" height="492" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1582319750326" />
-    <state width="1852" height="264" key="GridCell.Tab.0.bottom" timestamp="1582322219024">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1582343033189">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1852" height="264" key="GridCell.Tab.0.center" timestamp="1582322219024">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1582343033189">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1852" height="264" key="GridCell.Tab.0.left" timestamp="1582322219024">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1582343033189">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1852" height="264" key="GridCell.Tab.0.right" timestamp="1582322219024">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1582343033189">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
+    <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1582334824396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582334824396" />
+    <state width="1876" height="364" key="GridCell.Tab.1.center" timestamp="1582334824396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582334824396" />
+    <state width="1876" height="364" key="GridCell.Tab.1.left" timestamp="1582334824396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582334824396" />
+    <state width="1876" height="364" key="GridCell.Tab.1.right" timestamp="1582334824396">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582334824396" />
     <state x="443" y="128" width="1024" height="853" key="SettingsEditor" timestamp="1582318966723">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>

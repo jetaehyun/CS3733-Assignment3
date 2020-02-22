@@ -28,13 +28,10 @@ public class CipherController {
 		caesarCipher = new CaesarCipher();
 		elbonianCipher = new ElbonianCipher();
 
+		caesarCipher.setMessage(cleartext);
+		elbonianCipher.setMessage(cleartext);
 
-		cleartext.register(caesarCipher);
-		cleartext.register(elbonianCipher);
 
-//		caesarTextOut.textProperty().addListener(textInputBox -> {
-//			cleartext.notifyObservers();
-//		});
 		/*
 		 * You may add additional code here if it relates to your observer pattern implementation.
 		 */
@@ -47,7 +44,7 @@ public class CipherController {
 	 * never explicitly called here.
 	 */
 	@FXML
-	public void onTextUpdate(){
+	public void onTextUpdate() {
 		cleartext.setText(textInputBox.getText());
 	}
 
