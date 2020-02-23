@@ -124,6 +124,6 @@ public class ElbonianCipher implements Observer {
 	public void notify(Object object){
 		setText(object.toString());
 //		textArea.setText(object.toString());
-
 	}
+
 }

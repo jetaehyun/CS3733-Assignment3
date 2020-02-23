@@ -35,10 +35,12 @@ public class Message implements Observable {
 		observerArrayList.add(o);
 	}
 
+
 	@Override
 	public void notifyObservers(){
 		for(Observer o : observerArrayList) {
 			o.notify(userText);
 		}
 	}
+
 }

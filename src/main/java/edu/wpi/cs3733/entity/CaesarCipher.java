@@ -204,6 +204,6 @@ public class CaesarCipher implements Observer {
 	@Override
 	public void notify(Object object){
 		setText(object.toString());
-
 	}
+
 }

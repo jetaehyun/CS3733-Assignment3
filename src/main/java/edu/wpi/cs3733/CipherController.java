@@ -56,4 +56,7 @@ public class CipherController {
 		caesarTextOut.setText(caesarCipher.getText());
 		elbonianTextOut.setText(elbonianCipher.getText());
 	}
+
+
+
 }

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testfx_core_4_0_16_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testfx_junit5_4_0_16_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testfx_spock_4_0_16_alpha.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/MainView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/ObserverTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/ObserverTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/CipherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/CaesarCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/ElbonianCipher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/wpi/cs3733/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MainView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CipherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CipherTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObserverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548994963114" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/testfx-junit5-4.0.16-alpha.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
@@ -61,7 +75,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CipherTests">
+  <component name="RunManager" selected="JUnit.ObserverTests">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -239,22 +253,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CipherTests.ElbonianCipherUpperandLowerCaseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObserverTests" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CipherTests" />
-      <option name="METHOD_NAME" value="ElbonianCipherUpperandLowerCaseTest2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ObserverTests" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CipherTests.ElbonianCipherUpperandLowerCaseTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ObserverTests.ObserverTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CipherTests" />
-      <option name="METHOD_NAME" value="ElbonianCipherUpperandLowerCaseTest3" />
+      <option name="MAIN_CLASS_NAME" value="ObserverTests" />
+      <option name="METHOD_NAME" value="ObserverTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -344,10 +357,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CipherTests" />
+        <item itemvalue="JUnit.ObserverTests.ObserverTest1" />
         <item itemvalue="JUnit.CipherTests.ElbonianCipherSpaceCaseTest3" />
         <item itemvalue="JUnit.CipherTests.ElbonianCipherSpaceCaseTest1" />
-        <item itemvalue="JUnit.CipherTests.ElbonianCipherUpperandLowerCaseTest3" />
-        <item itemvalue="JUnit.CipherTests.ElbonianCipherUpperandLowerCaseTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +398,9 @@
       <workItem from="1582318934434" duration="3157000" />
       <workItem from="1582332354540" duration="10015000" />
       <workItem from="1582406171222" duration="1352000" />
-      <workItem from="1582413055934" duration="2640000" />
+      <workItem from="1582413055934" duration="3514000" />
+      <workItem from="1582417652122" duration="3519000" />
+      <workItem from="1582423230877" duration="2386000" />
     </task>
     <servers />
   </component>
@@ -398,33 +412,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582415598974" />
-    <state x="743" y="308" width="514" height="492" key="FileChooserDialogImpl" timestamp="1582407321490">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="743" y="277" width="588" height="487" key="FileChooserDialogImpl" timestamp="1582418787065">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="743" y="277" width="588" height="487" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582418787065" />
     <state x="743" y="287" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582339020289" />
     <state x="743" y="308" width="514" height="492" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1582407321490" />
-    <state width="1877" height="256" key="GridCell.Tab.0.bottom" timestamp="1582415913953">
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom" timestamp="1582425742781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582425742781" />
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1877" height="256" key="GridCell.Tab.0.center" timestamp="1582415913953">
+    <state width="1877" height="256" key="GridCell.Tab.0.center" timestamp="1582425742780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
+    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582425742780" />
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1877" height="256" key="GridCell.Tab.0.left" timestamp="1582415913946">
+    <state width="1877" height="256" key="GridCell.Tab.0.left" timestamp="1582425742780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913946" />
+    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582425742780" />
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1877" height="256" key="GridCell.Tab.0.right" timestamp="1582415913953">
+    <state width="1877" height="256" key="GridCell.Tab.0.right" timestamp="1582425742780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
+    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582425742780" />
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
     <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1582334824396">
@@ -443,9 +458,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582334824396" />
-    <state x="443" y="128" width="1176" height="853" key="SettingsEditor" timestamp="1582407295996">
-      <screen x="0" y="28" width="1920" height="1052" />
+    <state x="443" y="99" width="1176" height="853" key="SettingsEditor" timestamp="1582418795414">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="443" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582418795414" />
     <state x="443" y="128" width="1176" height="853" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1582407295996" />
     <state x="595" y="420" width="720" height="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582406356098">
       <screen x="0" y="28" width="1920" height="1052" />
