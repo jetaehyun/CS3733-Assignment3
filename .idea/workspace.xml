@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a594c2e-5ce1-44e8-adf7-97bce5edb525" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/CipherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/CipherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/CaesarCipher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/edu/wpi/cs3733/entity/ElbonianCipher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CipherTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CipherTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ObserverTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ObserverTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -24,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Y8KlNRvCqIxVyBgqStb5PtTlaT" />
   <component name="ProjectViewState">
@@ -42,6 +43,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548994963114" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -54,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CipherTests">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -200,6 +207,60 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
+    <configuration name="CipherTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.ElbonianCipherSpaceCaseTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="ElbonianCipherSpaceCaseTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.ElbonianCipherSpaceCaseTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="ElbonianCipherSpaceCaseTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.ElbonianCipherUpperandLowerCaseTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="ElbonianCipherUpperandLowerCaseTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CipherTests.ElbonianCipherUpperandLowerCaseTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CipherTests" />
+      <option name="METHOD_NAME" value="ElbonianCipherUpperandLowerCaseTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -280,6 +341,27 @@
       <recursive>false</recursive>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CipherTests" />
+        <item itemvalue="JUnit.CipherTests.ElbonianCipherSpaceCaseTest3" />
+        <item itemvalue="JUnit.CipherTests.ElbonianCipherSpaceCaseTest1" />
+        <item itemvalue="JUnit.CipherTests.ElbonianCipherUpperandLowerCaseTest3" />
+        <item itemvalue="JUnit.CipherTests.ElbonianCipherUpperandLowerCaseTest2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -304,6 +386,7 @@
       <workItem from="1582318934434" duration="3157000" />
       <workItem from="1582332354540" duration="10015000" />
       <workItem from="1582406171222" duration="1352000" />
+      <workItem from="1582413055934" duration="2640000" />
     </task>
     <servers />
   </component>
@@ -311,29 +394,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582415598974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582415598974" />
     <state x="743" y="308" width="514" height="492" key="FileChooserDialogImpl" timestamp="1582407321490">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="743" y="287" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582339020289" />
     <state x="743" y="308" width="514" height="492" key="FileChooserDialogImpl/0.28.1920.1052@0.28.1920.1052" timestamp="1582407321490" />
-    <state width="1876" height="295" key="GridCell.Tab.0.bottom" timestamp="1582343033189">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom" timestamp="1582415913953">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1876" height="295" key="GridCell.Tab.0.center" timestamp="1582343033189">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="256" key="GridCell.Tab.0.center" timestamp="1582415913953">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1876" height="295" key="GridCell.Tab.0.left" timestamp="1582343033189">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="256" key="GridCell.Tab.0.left" timestamp="1582415913946">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913946" />
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
-    <state width="1876" height="295" key="GridCell.Tab.0.right" timestamp="1582343033189">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="256" key="GridCell.Tab.0.right" timestamp="1582415913953">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582415913953" />
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582343033189" />
     <state width="1852" height="264" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1582322219024" />
     <state width="1876" height="364" key="GridCell.Tab.1.bottom" timestamp="1582334824396">
@@ -360,6 +451,10 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="595" y="420" width="720" height="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.28.1920.1052@0.28.1920.1052" timestamp="1582406356098" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1582415921018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582415921018" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

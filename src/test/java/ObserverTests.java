@@ -4,10 +4,12 @@
  */
 
 import edu.wpi.cs3733.entity.CaesarCipher;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 
 public class ObserverTests {
+
+
     @Test
     private void something() {
         CaesarCipher d = new CaesarCipher();
